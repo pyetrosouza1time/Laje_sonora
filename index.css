@@ -1,4 +1,36 @@
 *{
     margin: 0px;
-    
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --concreto: #E2DFD8;
+    --concreto-escuro: #CBC7BE;
+    --tinta: #0F1E3D;
+    --caixa-dagua: #1F5FBF;
+    --fita: #F3C623;
+    --branco: #FFFFFF;
+    --fonte-cartaz: "Big Shoulders", "Arial Narrow", sans-serif;
+    --fonte-texto: "Archivo", Arial,  sans-serif;
+}
+body{
+    background-color: #E2DFD8;
+    color: #0F1E3D;
+    font-family: var(--fonte-texto);
+    font-size: 17px;
+    line-height: 1.55;
+}
+a{
+ color: inherit
+}
+h1, h2, h3{
+    font-family: var(--fonte-cartaz);
+    font-weight: 900;
+    line-height: 0.95;
+}
+.conteudo{
+    margin-inline: auto;
+    max-width: 1200px;
+    padding-inline: 32px;
+
 }
